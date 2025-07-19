@@ -12,5 +12,6 @@ Location Tracking App – Key Features
 
 6. Built using Android Studio with native Android capabilities for accurate and efficient performance.
 
-![ed](https://github.com/user-attachments/assets/81030a3c-33dd-4a34-9bfb-6801616e283f)
+![ed](https://github.com/user-attachments/assets/6209f2ce-50b1-4937-b1d3-446140aab0db)
+
 
