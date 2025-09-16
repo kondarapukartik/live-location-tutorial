@@ -26,6 +26,11 @@ jobs:
     # 3. Make Gradle wrapper executable
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
+    - name: Create local.properties
+      run: |
+         echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+         # Add additional properties if needed
+         working-directory: ${{ github.workspace }}
 
     # 4. Build project
     - name: Build with Gradle
